@@ -29,7 +29,7 @@ int foo(int move_zone1[2][2], int n1, int move_zone2[1][2], int n2, int pos1, in
                 check = true;
             }
             if (move_zone2[j][0] == pos2) {
-                pos2 = move_zone1[j][1];
+                pos2 = move_zone2[j][1];
                 check = true;
             }
             if (check == false) continue;
